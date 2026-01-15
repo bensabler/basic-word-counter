@@ -11,6 +11,7 @@ import (
 func main() {
 	// Defining a boolean flag -l to count lines instead of words
 	lines := flag.Bool("l", false, "Count lines")
+
 	// Parsing the flags provided by the user
 	flag.Parse()
 
